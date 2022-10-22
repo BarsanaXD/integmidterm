@@ -4,8 +4,8 @@
     
      <strong>{{ correctAnswers }} correct {{ pluralizeAnswer }}!</strong>
    </div>
-   <div class="correctAnswers">
-     Question No. {{ index + 1 }} of {{ questions.length }}
+   <div class="CorrectAnswers">
+     Question Number {{ index + 1 }} of {{ questions.length }}
    </div>
  
    <h2 v-html="loading ? 'Loading...' : currentQuestion.question" ></h2>
@@ -126,7 +126,7 @@ export default {
       this.timeTake = today.toGMTString()
       //fetching questions from api
       let response = await fetch(
-        "https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=multiple"
+        "https://opentdb.com/api.php?amount=25&category=23&difficulty=hard&type=multiple"
       );
       let index = 0; //To identify single answer
       let data = await response.json();
@@ -213,7 +213,7 @@ export default {
   max-width: 1000px;
 }
 #notecard {
-  background-color: #f4cccc;
+  background-color: #c0730e;
 }
 h1 {
   margin: 20px;
@@ -234,10 +234,10 @@ button {
   margin: 0.5rem;
   color: white;
   width: 40%;
-  background-color: rgba(10, 117, 173, 1);
+  background-color: rgba(101, 9, 134, 0.587);
   border: none;
   border-radius: 0.4rem;
-  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 5px 5px rgba(202, 23, 23, 0.1);
 }
 
 button:hover:enabled {
@@ -284,8 +284,8 @@ button.rightAnswer {
   animation-timing-function: ease-in-out;
   color: white;
   background: linear-gradient(210deg,
-      rgba(0, 178, 72, 0.25),
-      rgba(0, 128, 0, 1));
+      rgba(204, 148, 7, 0.25),
+      rgb(173, 171, 2));
 }
 
 button.wrongAnswer {
@@ -303,7 +303,7 @@ button.showRightAnswer {
   animation-timing-function: ease-in-out;
   color: white;
   background: linear-gradient(210deg,
-      rgba(0, 178, 72, 0.25),
-      rgba(0, 128, 0, 1));
+  rgba(204, 148, 7, 0.25),
+  rgb(173, 171, 2));
 }
 </style>

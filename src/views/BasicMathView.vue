@@ -2,8 +2,8 @@
 	<v-card
 		 :loading="loading"
 		 class="mx-auto my-12"
-		 max-width="800"
-		 elevation="12"
+		 max-width="850"
+		 elevation="18"
 		 color="white"
 	
 	  >
@@ -38,7 +38,7 @@
 			height="200"
 		  >
 			<v-card
-			  style="background-color: #ffb6c1; color:black; text-align: center; margin: 10px;"
+			  style="background-color: yellow; color:black; text-align: center; margin: 10px;"
 			  elevation="4"
 			>
 			  <v-card-title>Sum: </v-card-title>
@@ -51,7 +51,7 @@
 			height="200"
 		  >
 			<v-card
-			  style="background-color: #b6fcd5; color:black; text-align: center; margin: 10px;"
+			  style="background-color: white; color:black; text-align: center; margin: 10px;"
 			  elevation="4"
 			>
 			  <v-card-title>Difference: </v-card-title>
@@ -65,7 +65,7 @@
 			height="200"
 		  >
 			<v-card
-			  style="background-color: #c6e2ff; color:black; text-align: center; margin: 10px;"
+			  style="background-color: yellow; color:black; text-align: center; margin: 10px;"
 			  elevation="4"
 			>
 			  <v-card-title>Product: </v-card-title>
@@ -79,7 +79,7 @@
 			height="200"
 		  >
 			<v-card
-			  style="background-color: #ffc3a0; color:black; text-align: center; margin: 10px;"
+			  style="background-color: white; color:black; text-align: center; margin: 10px;"
 			  elevation="4"
 			>
 			  <v-card-title>Quotient: </v-card-title>
@@ -93,7 +93,7 @@
 			height="200"
 		  >
 			<v-card
-			  style="background-color: #ffc3a0; color:black; text-align: center; margin: 10px;"
+			  style="background-color: yellow; color:black; text-align: center; margin: 10px;"
 			  elevation="4"
 			>
 			  <v-card-title>Average: </v-card-title>

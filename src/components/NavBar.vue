@@ -3,8 +3,8 @@
       <v-toolbar app >
        <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
       <v-toolbar-title >
-        <span class="font-weight-light">Barsana </span>
-        <span>Midterm Project</span>
+        <span class="font-weight-light">Mas Bryan </span>
+        <span>Midterm Project INTEG  </span>
       </v-toolbar-title>
       <v-spacer ></v-spacer>
 
@@ -51,13 +51,13 @@
   const drawer = ref(false)
 
   const  items =  ref([
-           { title: 'Personal Life', icon: 'mdi-account', path: '/' },
-           { title: 'Skills', icon: 'mdi-view-dashboard', path: '/skills' },
-           { title: 'Basic Math Demo', icon: 'mdi-plus-one', path: '/basicMath' },
-           { title: 'String App', icon: 'mdi-code-string', path: '/stringApp'},
+           { title: 'Personal Life of Mine', icon: 'mdi-account', path: '/' },
+           { title: 'My Skills', icon: 'mdi-view-dashboard', path: '/skills' },
+           { title: 'Basic Mathematics Demo', icon: 'mdi-plus-one', path: '/basicMath' },
+           { title: 'String Application', icon: 'mdi-code-string', path: '/stringApp'},
            { title: 'Axios Demo', icon: 'mdi-api', path: '/axiosDemo'},
-           { title: 'Area Calculator', icon: 'mdi-calculator-variant-outline', path: '/area'},
-           { title: 'Quiz App', icon: 'mdi-lightbulb-on', path: '/quiz'},
+           { title: 'Part of Calculator', icon: 'mdi-calculator-variant-outline', path: '/area'},
+           { title: 'Quiz Application', icon: 'mdi-lightbulb-on', path: '/quiz'},
            
            
 
@@ -73,6 +73,6 @@
 <style>
  #aydol{
     color: rgb(0, 0, 0);
-    background-color: rgba(247, 121, 121, 0.885);
+    background-color: rgba(178, 120, 4, 0.885);
    }
 </style>

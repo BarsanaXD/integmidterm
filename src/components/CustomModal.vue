@@ -35,7 +35,7 @@
                 class="button-footer"
                 @click="$emit('reload')"
               >
-                Play Again
+                Play Again If You Want?
               </button>
               <button
                 id="close-button"

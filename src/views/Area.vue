@@ -7,7 +7,7 @@
 		 color="white">
 		 <center>
 		<div style="padding: 10px;">
-			<h1>Area Calculator</h1>
+			<h1>Basic Mathematics</h1>
 
 		  <v-col
 			cols="12"
@@ -132,14 +132,14 @@ export default {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  background-color: #007c72;
+  background-color: #dff72a;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #dff72a;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -149,7 +149,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #dff72a;
 }
 
 

@@ -61,10 +61,10 @@
     color: white;
    }
    #quizCard {
-    background-image: url("https://preview.redd.it/pahingi-namang-context-para-sa-caloocan-boy-meme-v0-w8jys7vnupq91.jpg?auto=webp&s=7fa9fad3d2893891d930b736726e71d6fb18fed4");
+    background-image: url("https://images.goklassifieds.com/2020/11/Technological-Institute-of-the-Philippines-Cover.jpg");
    }
    #finishCard {
-    background-image: url("https://preview.redd.it/pahingi-namang-context-para-sa-caloocan-boy-meme-v0-w8jys7vnupq91.jpg?auto=webp&s=7fa9fad3d2893891d930b736726e71d6fb18fed4");
+    background-image: url("https://images.goklassifieds.com/2020/11/Technological-Institute-of-the-Philippines-Cover.jpg");
    }
   
   </style>
